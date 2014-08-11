@@ -22,7 +22,8 @@ The amount of code per non-native, non-abstract method is limited to **65536 byt
 
 * Note that the value of the fields_count item of the ClassFile structure does not include fields that are inherited from superclasses or superinterfaces.
 
-* The number of methods that may be declared by a class or interface is limited to **65535 by the size** of the methods_count item of the ClassFile structure (§4.1).
+####[Number of Methods](src/number_of_methods/README.md)
+The number of methods that may be declared by a class or interface is limited to **65535 by the size** of the methods_count item of the ClassFile structure (§4.1).
 
 * Note that the value of the methods_count item of the ClassFile structure does not include methods that are inherited from superclasses or superinterfaces.
 
