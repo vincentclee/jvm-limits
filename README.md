@@ -7,13 +7,15 @@ Dedicated to finding the most absurd JVM error messages known to man.
 
 Here's the spec, directly from the mouth of Oracle.
 
-##4.11. Limitations of the Java Virtual Machine
+---
+
+###4.11. Limitations of the Java Virtual Machine
 
 The following limitations of the Java Virtual Machine are implicit in the class file format:
 
 * The per-class or per-interface constant pool is limited to 65535 entries by the 16-bit constant_pool_count field of the ClassFile structure (§4.1). This acts as an internal limit on the total complexity of a single class or interface.
 
-###Method Body
+####Method Body
 The amount of code per non-native, non-abstract method is limited to 65536 bytes by the sizes of the indices in the exception_table of the Code attribute (§4.7.3), in the LineNumberTable attribute (§4.7.8), and in the LocalVariableTable attribute (§4.7.9).
 
 * The number of fields that may be declared by a class or interface is limited to 65535 by the size of the fields_count item of the ClassFile structure (§4.1).
