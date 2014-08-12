@@ -16,7 +16,7 @@ The following limitations of the Java Virtual Machine are implicit in the class 
 ####[Limitation]()
 The per-class or per-interface constant pool is limited to **65535 entries** by the 16-bit constant_pool_count field of the ClassFile structure (§4.1). This acts as an internal limit on the total complexity of a single class or interface.
 
-####[Method Body](src/method_body/README.md)
+####[Method Body](src/method_body)
 The amount of code per non-native, non-abstract method is limited to **65536 bytes** by the sizes of the indices in the exception_table of the Code attribute (§4.7.3), in the LineNumberTable attribute (§4.7.8), and in the LocalVariableTable attribute (§4.7.9).
 
 ####[Limitation]()
@@ -24,7 +24,7 @@ The number of fields that may be declared by a class or interface is limited to 
 
 > Note that the value of the fields_count item of the ClassFile structure does not include fields that are inherited from superclasses or superinterfaces.
 
-####[Number of Methods](src/number_of_methods/README.md)
+####[Number of Methods](src/number_of_methods)
 The number of methods that may be declared by a class or interface is limited to **65535 by the size** of the methods_count item of the ClassFile structure (§4.1).
 
 > Note that the value of the methods_count item of the ClassFile structure does not include methods that are inherited from superclasses or superinterfaces.
