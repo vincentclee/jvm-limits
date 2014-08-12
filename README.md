@@ -42,7 +42,7 @@ The size of an operand stack in a frame (§2.6) is limited to **65535 values** b
 
 > Note that values of type long and double are each considered to contribute two units toward the max_stack value, so use of values of these types on the operand stack further reduces this limit.
 
-####[Limitation]()
+####[Method Parameters](src/method_parameters)
 The number of method parameters is limited to **255 by the definition** of a method descriptor (§4.3.3), where the limit includes one unit for this in the case of instance or interface method invocations.
 
 > Note that a method descriptor is defined in terms of a notion of method parameter length in which a parameter of type long or double contributes two units to the length, so parameters of these types further reduce the limit.
