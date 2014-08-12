@@ -52,5 +52,5 @@ The length of field and method names, field and method descriptors, and other co
 
 > Note that the limit is on the number of bytes in the encoding and not on the number of encoded characters. UTF-8 encodes some characters using two or three bytes. Thus, strings incorporating multibyte characters are further constrained.
 
-####[Limitation]()
+####[Array Dimensions](src/array_dimensions)
 The number of dimensions in an array is limited to **255 by the size** of the dimensions opcode of the multianewarray instruction and by the constraints imposed on the multianewarray, anewarray, and newarray instructions (§4.9.1, §4.9.2).
