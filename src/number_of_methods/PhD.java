@@ -1,9 +1,8 @@
 package number_of_methods;
 
-public class class_methods {
-	
+public class PhD implements Degree {
 	public static void main(String[] args) {
-		new class_methods();
+		Degree first = new PhD();
 	}
 	
 	public void m1() {}

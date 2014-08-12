@@ -1,6 +1,6 @@
 package method_body;
 
-public class method_body {
+public class MethodBodyMax {
 	public static void main(String[] args) {
 		int i = 0;
 		
