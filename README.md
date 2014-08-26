@@ -19,7 +19,7 @@ The per-class or per-interface constant pool is limited to **65535 entries** by 
 ####[Method Body](src/method_body)
 The amount of code per non-native, non-abstract method is limited to **65536 bytes** by the sizes of the indices in the exception_table of the Code attribute (§4.7.3), in the LineNumberTable attribute (§4.7.8), and in the LocalVariableTable attribute (§4.7.9).
 
-####[Limitation]()
+####[Number of Fields](src/number_of_fields)
 The number of fields that may be declared by a class or interface is limited to **65535 by the size** of the fields_count item of the ClassFile structure (§4.1).
 
 > Note that the value of the fields_count item of the ClassFile structure does not include fields that are inherited from superclasses or superinterfaces.
