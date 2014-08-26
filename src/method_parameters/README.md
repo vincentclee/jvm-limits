@@ -4,7 +4,10 @@ The number of method parameters is limited to **255 by the definition** of a met
 
 >Note that a method descriptor is defined in terms of a notion of method parameter length in which a parameter of type long or double contributes two units to the length, so parameters of these types further reduce the limit.
 
-```
+---
+
+###Eclipse Error Message
+```java
 Exception in thread "main" java.lang.ClassFormatError: Too many arguments in method signature in class file method_parameters/MethodParametersMax
 	at java.lang.ClassLoader.defineClass1(Native Method)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
@@ -19,6 +22,15 @@ Exception in thread "main" java.lang.ClassFormatError: Too many arguments in met
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
+
+```
+
+###JAVAC Error Message
+```java
+MethodParametersMax.java:10: error: too many parameters
+	public void bigInput(
+	            ^
+1 error
 
 ```
 
