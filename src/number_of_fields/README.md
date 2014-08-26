@@ -9,7 +9,7 @@ The number of fields that may be declared by a class or interface is limited to 
 
 
 ###Eclipse Error Message
-```
+```java
 Error: Could not find or load main class number_of_fields.ClassFieldsMax
 ```
 
