@@ -4,7 +4,7 @@ The number of dimensions in an array is limited to **255 by the size** of the di
 ---
 
 ###Eclipse Error Message
-```
+```java
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	Too many array dimensions. Maximum is 255
 	
