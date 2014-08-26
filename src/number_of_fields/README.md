@@ -4,9 +4,10 @@ The number of fields that may be declared by a class or interface is limited to 
 
 > Note that the value of the fields_count item of the ClassFile structure does not include fields that are inherited from superclasses or superinterfaces.
 
-<br><br>
-
+<br>
 ---
+<br>
+
 
 ###Eclipse Error Message
 ```
@@ -20,4 +21,7 @@ public class ClassFieldsMax {
        ^
 1 error
 ```
+
+<br>
+
 ####Absolutely Unbelievable!
