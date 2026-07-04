@@ -5,7 +5,7 @@ The amount of code per non-native, non-abstract method is limited to **65536 byt
 
 ### Eclipse Error Message
 ```console
-Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
   The code of method main(String[]) is exceeding the 65535 bytes limit
 
   at method_body.method_body.main(method_body.java:4)

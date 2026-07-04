@@ -30,7 +30,7 @@ public class InstanceFieldsMax {
 
 ### Stack Overflow
 ```console
-[vincentlee@ivybridge number_of_fields]$ javac InterfaceFieldsMax.java 
+[vincentlee@ivybridge number_of_fields]$ javac InterfaceFieldsMax.java
 
 
 The system is out of resources.

@@ -4,9 +4,9 @@ public class MethodParametersMax {
 	public static void main(String[] args) {
 		new MethodParametersMax();
 	}
-	
+
 	public MethodParametersMax() {};
-	
+
 	public void bigInput(
 			int v1,int v2,int v3,int v4,int v5,int v6,int v7,int v8,int v9,int v10,
 			int v11,int v12,int v13,int v14,int v15,int v16,int v17,int v18,int v19,int v20,

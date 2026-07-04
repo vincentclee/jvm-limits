@@ -5,9 +5,9 @@ The number of dimensions in an array is limited to **255 by the size** of the di
 
 ### Eclipse Error Message
 ```console
-Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
 	Too many array dimensions. Maximum is 255
-	
+
 	at array_dimensions.ArrayDimensionsMax.main(ArrayDimensionsMax.java:5)
 ```
 

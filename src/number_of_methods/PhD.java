@@ -4,7 +4,7 @@ public class PhD implements Degree {
 	public static void main(String[] args) {
 		Degree first = new PhD();
 	}
-	
+
 	public void m1() {}
 	public void m2() {}
 	public void m3() {}
