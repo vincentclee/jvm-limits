@@ -1,4 +1,4 @@
-#Number of Fields
+# Number of Fields
 
 The number of fields that may be declared by a class or interface is limited to **65535 by the size** of the fields_count item of the ClassFile structure (§4.1).
 
@@ -8,19 +8,19 @@ The number of fields that may be declared by a class or interface is limited to 
 ---
 
 
-###Eclipse Error Message
-```java
+### Eclipse Error Message
+```console
 Error: Could not find or load main class number_of_fields.ClassFieldsMax
 ```
 
-###JAVAC Error Message
-```java
+### JAVAC Error Message
+```console
 ClassFieldsMax.java:3: error: too many constants
 public class ClassFieldsMax {
        ^
 1 error
 ```
-```java
+```console
 [vincentlee@ivybridge number_of_fields]$ javac InstanceFieldsMax.java
 InstanceFieldsMax.java:3: error: too many constants
 public class InstanceFieldsMax {
@@ -28,8 +28,8 @@ public class InstanceFieldsMax {
 1 error
 ```
 
-###Stack Overflow
-```java
+### Stack Overflow
+```console
 [vincentlee@ivybridge number_of_fields]$ javac InterfaceFieldsMax.java 
 
 
@@ -64,4 +64,4 @@ java.lang.StackOverflowError
 ```
 
 
-####Absolutely Unbelievable!
+#### Absolutely Unbelievable!

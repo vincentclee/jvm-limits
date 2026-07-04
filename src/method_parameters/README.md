@@ -1,13 +1,13 @@
-#Method Parameters
+# Method Parameters
 
 The number of method parameters is limited to **255 by the definition** of a method descriptor (§4.3.3), where the limit includes one unit for this in the case of instance or interface method invocations.
 
->Note that a method descriptor is defined in terms of a notion of method parameter length in which a parameter of type long or double contributes two units to the length, so parameters of these types further reduce the limit.
+> Note that a method descriptor is defined in terms of a notion of method parameter length in which a parameter of type long or double contributes two units to the length, so parameters of these types further reduce the limit.
 
 ---
 
-###Eclipse Error Message
-```java
+### Eclipse Error Message
+```console
 Exception in thread "main" java.lang.ClassFormatError: Too many arguments in method signature in class file method_parameters/MethodParametersMax
 	at java.lang.ClassLoader.defineClass1(Native Method)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
@@ -25,8 +25,8 @@ Exception in thread "main" java.lang.ClassFormatError: Too many arguments in met
 
 ```
 
-###JAVAC Error Message
-```java
+### JAVAC Error Message
+```console
 MethodParametersMax.java:10: error: too many parameters
 	public void bigInput(
 	            ^
@@ -34,4 +34,4 @@ MethodParametersMax.java:10: error: too many parameters
 
 ```
 
-####Absolutely Wicked!
+#### Absolutely Wicked!

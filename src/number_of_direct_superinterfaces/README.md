@@ -1,16 +1,11 @@
-#Number of Direct Superinterfaces
+# Number of Direct Superinterfaces
 
 The number of direct superinterfaces of a class or interface is limited to **65535 by the size** of the interfaces_count item of the ClassFile structure (§4.1).
 
 ---
 
-###Eclipse Error Message
-```java
-
-```
-
-###Stack Overflow
-```java
+### Stack Overflow
+```console
 [vincentlee@ivybridge number_of_direct_superinterfaces]$ javac *
 
 
@@ -30,4 +25,4 @@ java.lang.StackOverflowError
 
 ```
 
-####Absolutely Ravin' Bonkers!
+#### Absolutely Ravin' Bonkers!
